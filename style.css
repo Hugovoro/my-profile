@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background-color: lavender;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+
+div {
+    box-shadow: 10px 5px 5px grey;
+    Border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+a {
+    color:white;
+    text-decoration-line: none;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: blueviolet;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+h1 {
+    color:blueviolet;
+    font-size: 40px;
+    font-family:serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    box-shadow: 10px 5px 5px blueviolet;
+    Border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto; 
+    background-color:whitesmoke;
+}
+
+p {
+    font-size: 25px;
+    font-family: fantasy;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+ul {
+    margin-left: 410px;
+    margin-right: 410px;
+}
+
+i {
+    color:blueviolet;
+}
+
+
+
+
+
+
+
